@@ -49,13 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-<<<<<<< HEAD
-local package_path_str = "/Users/jawood/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/jawood/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/jawood/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/jawood/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/jawood/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
-=======
 local package_path_str = "/Users/jacobjwood/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/Users/jacobjwood/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/Users/jacobjwood/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/Users/jacobjwood/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
 local install_cpath_pattern = "/Users/jacobjwood/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -81,59 +76,31 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   LuaSnip = {
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/LuaSnip",
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/LuaSnip",
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   ["cmp-buffer"] = {
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/cmp-buffer",
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/cmp-buffer",
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["cmp-nvim-lua"] = {
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua",
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua",
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
     url = "https://github.com/hrsh7th/cmp-nvim-lua"
   },
   ["cmp-path"] = {
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/cmp-path",
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/cmp-path",
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
     url = "https://github.com/hrsh7th/cmp-path"
   },
   cmp_luasnip = {
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
-    url = "https://github.com/saadparwaiz1/cmp_luasnip"
-  },
-  ["friendly-snippets"] = {
-    loaded = true,
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/friendly-snippets",
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
@@ -145,28 +112,15 @@ _G.packer_plugins = {
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/friendly-snippets",
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
   harpoon = {
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/harpoon",
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/harpoon",
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
     url = "https://github.com/theprimeagen/harpoon"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
-    url = "https://github.com/VonHeikemen/lsp-zero.nvim"
-  },
-  ["mason-lspconfig.nvim"] = {
-    loaded = true,
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
@@ -184,107 +138,56 @@ _G.packer_plugins = {
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
     url = "https://github.com/williamboman/mason-lspconfig.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/mason.nvim",
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/mason.nvim",
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/nvim-cmp",
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/nvim-cmp",
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["packer.nvim"] = {
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/packer.nvim",
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/packer.nvim",
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
     url = "https://github.com/wbthomason/packer.nvim"
   },
   playground = {
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/playground",
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/playground",
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
     url = "https://github.com/nvim-treesitter/playground"
   },
   ["plenary.nvim"] = {
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/plenary.nvim",
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/plenary.nvim",
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["rose-pine"] = {
     config = { "\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0" },
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/rose-pine",
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/rose-pine",
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
     url = "https://github.com/rose-pine/neovim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/telescope.nvim",
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/telescope.nvim",
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   undotree = {
     loaded = true,
-<<<<<<< HEAD
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/undotree",
-    url = "https://github.com/mbbill/undotree"
-  },
-  ["vim-be-good"] = {
-    loaded = true,
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/vim-be-good",
-    url = "https://github.com/theprimeagen/vim-be-good"
-  },
-  ["vim-fugitive"] = {
-    loaded = true,
-    path = "/Users/jawood/.local/share/nvim/site/pack/packer/start/vim-fugitive",
-    url = "https://github.com/tpope/vim-fugitive"
-=======
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
@@ -297,18 +200,14 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/jacobjwood/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
     url = "https://github.com/folke/zen-mode.nvim"
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
   }
 }
 
 time([[Defining packer_plugins]], false)
-<<<<<<< HEAD
-=======
 -- Config for: lsp_lines.nvim
 time([[Config for lsp_lines.nvim]], true)
 try_loadstring("\27LJ\2\n7\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\14lsp_lines\frequire\0", "config", "lsp_lines.nvim")
 time([[Config for lsp_lines.nvim]], false)
->>>>>>> New setup with lsp_signature and lsp_lines and toggles
 -- Config for: rose-pine
 time([[Config for rose-pine]], true)
 try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0", "config", "rose-pine")

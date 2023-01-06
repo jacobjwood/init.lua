@@ -3,12 +3,7 @@ require "lsp_signature".setup({
     handler_opts = {
         border = "rounded"
     },
+    hint_enable = false,
     hint_prefix = "🌊 ",
+    toggle_key = "<C-h>",
 })
-
-vim.keymap.set(
-  "",
-  "<Leader>s",
-  require("lsp_signature").toggle_float_win,
-  { desc = "Toggle lsp_signature floating window" }
-)
