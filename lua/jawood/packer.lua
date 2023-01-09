@@ -51,6 +51,8 @@ return require('packer').startup(function(use)
 	  }
   }
 
+  use("nathom/filetype.nvim")
+
   use("folke/zen-mode.nvim")
   use("github/copilot.vim")
 
