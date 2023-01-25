@@ -44,3 +44,6 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 -- cargo run
 vim.keymap.set("n", "<leader>crd", "<cmd>!cargo run<CR>")
 vim.keymap.set("n", "<leader>ct", "<cmd>!cargo test<CR>")
+
+-- copy to clipboard
+vim.keymap.set("v", "<leader>c", "<cmd>w !pbcopy<CR>")
